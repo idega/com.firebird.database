@@ -35,7 +35,7 @@
     <dependency>
       <groupId>firebirdsql</groupId>
       <artifactId>firdbirdsql</artifactId>
-      <version>1.5.5</version>
+      <version>full-1.5.5</version>
       <type>jar</type>
       <url>http://firebird.sourceforge.com/</url>
       <properties>

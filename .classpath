@@ -5,7 +5,7 @@
   </classpathentry>
   <classpathentry kind="src" path="/com.idega.core">
   </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/firebirdsql/jars/firebirdsql-1.5.5.jar">
+  <classpathentry kind="var" path="MAVEN_REPO/firebirdsql/jars/firebirdsql-full-1.5.5.jar">
   </classpathentry>
   <classpathentry kind="output" path="target/classes">
   </classpathentry>
