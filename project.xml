@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <project>
   <pomVersion>3</pomVersion>
   <extend>${base.project.dir}/base-project.xml</extend>
   <name>Firebird Database support</name>
   <groupId>bundles</groupId>
   <artifactId>com.firebird.database</artifactId>
-  <currentVersion>1.5.5-SNAPSHOT</currentVersion>
+  <currentVersion>1.5.5</currentVersion>
   <organization/>
   <inceptionYear>2004</inceptionYear>
   <shortDescription>An idegaWeb bundle to support the Firebird database</shortDescription>
-  <versions/>
+  <versions>
+    <version>
+      <id>1.5.5</id>
+      <name>1.5.5</name>
+      <tag>firebirdsql_1_5_5</tag>
+    </version>
+  </versions>
   <branches/>
   <developers>
     <developer>
@@ -24,7 +31,8 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.core</artifactId>
-<!--      <version>0.9</version>-->
+      <!--      <version>0.9</version>-->
+
       <version>SNAPSHOT</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
