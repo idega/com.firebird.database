@@ -1,0 +1,13 @@
+<document>
+  <properties>
+    <title>Initial Version</title>
+    <author email="gimmii@idega.com">Grimur Jonsson</author>
+  </properties>
+  <body>
+    <release version="1.0.0" date="2005-03-20">
+      <action dev="gimmi" type="update">
+	Creating an initial version
+      </action>              
+    </release>
+  </body>
+</document>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <pomVersion>3</pomVersion>
+  <extend>${base.project.dir}/base-project.xml</extend>
+  <name>Firebird Database support</name>
+  <groupId>bundles</groupId>
+  <artifactId>com.firebird.database</artifactId>
+  <currentVersion>1.5.5-SNAPSHOT</currentVersion>
+  <organization/>
+  <inceptionYear>2004</inceptionYear>
+  <shortDescription>An idegaWeb bundle to support the Firebird database</shortDescription>
+  <versions/>
+  <branches/>
+  <developers>
+    <developer>
+      <name>Grimur Jonsson</name>
+      <id>gimmi</id>
+      <email>gimmi@idega.is</email>
+      <organization>idega software</organization>
+      <roles/>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.core</artifactId>
+      <!--<version>1.9</version>-->
+      <version>SNAPSHOT</version>
+      <type>jar</type>
+      <url>http://www.idega.com/</url>
+      <properties>
+        <eclipse.dependency>true</eclipse.dependency>
+      </properties>
+    </dependency>
+    <dependency>
+      <groupId>firebirdsql</groupId>
+      <artifactId>firdbirdsql</artifactId>
+      <version>1.5.5</version>
+      <type>jar</type>
+      <url>http://firebird.sourceforge.com/</url>
+      <properties>
+        <idegaweb.bundle.include>true</idegaweb.bundle.include>
+      </properties>
+    </dependency>
+  </dependencies>
+</project>
